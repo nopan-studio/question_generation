@@ -2,7 +2,6 @@ from typing import Dict, List, Optional
 
 import torch
 
-
 def trim_batch(
     input_ids, pad_token_id, attention_mask=None,
 ):

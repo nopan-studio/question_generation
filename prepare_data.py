@@ -7,9 +7,7 @@ import torch
 import nlp
 from transformers import T5Tokenizer, BartTokenizer, HfArgumentParser
 
-
 logger = logging.getLogger(__name__)
-
 
 @dataclass
 class DataTrainingArguments:

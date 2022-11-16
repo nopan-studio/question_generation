@@ -29,9 +29,7 @@ MODEL_TYPE_TO_TOKENIZER = {
     "bart": BartTokenizer,
 }
 
-
 logger = logging.getLogger(__name__)
-
 
 @dataclass
 class ModelArguments:
